@@ -42,6 +42,7 @@ const GameBoard = (props) => {
                 <li key={columnIndex}>
                   <button
                     onClick={() => props.onSelectSquare(rowIndex, columnIndex)}
+                    disabled={playerSymbol !== null}
                   >
                     {playerSymbol}
                   </button>
