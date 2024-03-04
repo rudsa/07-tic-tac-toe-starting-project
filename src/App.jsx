@@ -22,6 +22,8 @@ function App() {
 
   for (const combination of WINNING_COMBINATIONS) {
     // const firstSquareSymbol
+    // const secondSquareSymbol
+    // const thirdSquareSymbol
   }
 
   const handleSelectSquare = (rowIndex, columnIndex) => {
