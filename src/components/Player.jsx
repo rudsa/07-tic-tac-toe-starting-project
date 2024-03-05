@@ -6,6 +6,10 @@ const Player = (props) => {
 
   const handleEditClick = () => {
     setIsEditing((editing) => !editing);
+
+    if (isEditing) {
+      props.onChangeName(props.symbol, playerName);
+    }
   };
 
   const handleChange = (event) => {
